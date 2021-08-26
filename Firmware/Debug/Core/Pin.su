@@ -1,4 +1,0 @@
-Pin.cpp:9:1:Pin::Pin()	16	static
-Pin.cpp:13:6:void Pin::set(GPIO_TypeDef*, uint16_t)	24	static
-Pin.cpp:19:15:GPIO_TypeDef* Pin::port()	16	static
-Pin.cpp:23:10:uint16_t Pin::pin()	16	static
