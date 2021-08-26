@@ -33,11 +33,11 @@ The controller is sending the status of the system via a serial link every 2
 seconds.
 To connect to the controller use the following settings for the serial port:
 
-    __Baud Rate__ : 115200
-    __Data Bits__ : 8
-    __Flow Control__ : None
-    __Parity__ : None
-    __Stop Bits__: 1
+    Baud Rate : 115200
+    Data Bits : 8
+    Flow Control : None
+    Parity : None
+    Stop Bits: 1
 
 The message structure is as follows:
 
