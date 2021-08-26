@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PumpController-rescue)(type Legacy)(uri ${KIPRJMOD}/PumpController-rescue.lib)(options "")(descr ""))
+)
