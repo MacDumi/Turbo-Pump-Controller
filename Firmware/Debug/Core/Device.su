@@ -1,0 +1,5 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+Device.cpp:4:13:std::string Device::getLabel()	16	static
+Device.cpp:9:6:bool Device::hasFault()	16	static
+Device.cpp:14:7:float Device::getVoltage()	16	static
+Device.cpp:19:6:bool Device::isRunning()	16	static
