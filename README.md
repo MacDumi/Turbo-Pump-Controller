@@ -54,8 +54,10 @@ The User interfaces with the controller with a rotary encoder.
 Rotating it in either direction will result in the change of the display page
 (Pump status page or Fore-Vacuum pressure).
 
-<img src="/media/page_0.png" alt="Page 0">
-<img src="/media/page_1.png" alt="Page 1">
+<p align="center">
+<img src="/media/page_0.png" alt="Page 0" width=500px>
+<img src="/media/page_1.png" alt="Page 1" width=500px>
+</p>
 
 On the Pump status page the user can enter the __Edit__ mode by pressing the
 button of the rotary encoder -- a triangle will appear indicating the selected
@@ -65,8 +67,10 @@ mode.
 To return from the __Edit__ mode without toggling any of the pumps, the user can
 rotate the rotary encoder beyond the limits of the display.
 
-<img src="/media/page_edit.png" alt="Edit page">
-
+<p align="center">
+<img src="/media/page_edit.png" alt="Edit page" width=500px>
+</p>
+    
 In case of a fault (of either devices) a warning message will appear along with
 a sound alarm, both of which can be dismissed by pressing the button of the
 rotary encoder.
