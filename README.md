@@ -32,19 +32,20 @@ different pumps, as well as for a different number of units.
 The controller is sending the status of the system via a serial link every 2
 seconds.
 To connect to the controller use the following settings for the serial port:
-    __Baud Rate__ : 115200
-    __Data Bits__ : 8
-    __Flow Control__ : None
-    __Parity__ : None
-    __Stop Bits__: 1
+
+    Baud Rate : 115200
+    Data Bits : 8
+    Flow Control : None
+    Parity : None
+    Stop Bits: 1
 
 The message structure is as follows:
-__FV-__**<NO>**__: __**<PRESS>** __mbar, P0-__**<NO>**__: __**<FREQ>** __Hz,
-P1-__**<NO>**__:__ **<FREQ>** __Hz__ \r\n
 
-where **<NO>** is a boolean value for the device normal operation (**1** for normal
-operation and **0** for fault), **<PRESS>** is the pressure of the pirani
-pressure gauge, and **<FREQ>** is the rotor frequency of the turbo-molecular
+    FV-<NO>: <PRESS> mbar, P0-<NO>: <FREQ> Hz,P1-<NO>: <FREQ> Hz\r\n
+
+where **\<NO>** is a boolean value for the device normal operation (**1** for normal
+operation and **0** for fault), **\<PRESS>** is the pressure of the pirani
+pressure gauge, and **\<FREQ>** is the rotor frequency of the turbo-molecular
 pump.
 
 ## User Interface
